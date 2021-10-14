@@ -74,7 +74,7 @@ class _NewsRevenuesState extends State<NewsRevenues> {
             CategoriesMealsScreen(_availableMeals),
         AppRoutes.MEAL_DETAIL: (ctx) =>
             MealDetailScreen(_toggleFavorite, _isFavorite),
-        AppRoutes.SETINGS: (ctx) => SettingsScreen(settings, _filterMeals),
+        AppRoutes.SETTINGS: (ctx) => SettingsScreen(settings, _filterMeals),
       },
     );
   }

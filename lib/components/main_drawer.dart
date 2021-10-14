@@ -50,7 +50,7 @@ class MainDrawer extends StatelessWidget {
           _createItem(
             Icons.settings,
             'Configurações',
-            () => Navigator.of(context).pushReplacementNamed(AppRoutes.SETINGS),
+            () => Navigator.of(context).pushReplacementNamed(AppRoutes.SETTINGS),
           ),
         ],
       ),
