@@ -57,7 +57,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Vamos Cozinhar?',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primarySwatch: Colors.purple,
         accentColor: Colors.amber,
         fontFamily: 'Raleway',
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
