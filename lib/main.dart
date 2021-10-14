@@ -10,14 +10,14 @@ import 'models/meal.dart';
 import 'models/settings.dart';
 import 'data/dummy_data.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(NewsRevenues());
 
-class MyApp extends StatefulWidget {
+class NewsRevenues extends StatefulWidget {
   @override
-  _MyAppState createState() => _MyAppState();
+  _NewsRevenuesState createState() => _NewsRevenuesState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _NewsRevenuesState extends State<NewsRevenues> {
   Settings settings = Settings();
   List<Meal> _availableMeals = DUMMY_MEALS;
   List<Meal> _favoriteMeals = [];
